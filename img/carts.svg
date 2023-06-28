@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_2" data-name="Layer 2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 2.96 3.01">
+  <g id="Layer_1-2" data-name="Layer 1">
+    <path d="m0,.04h.61l.06.41.19,1.38s-.81.38.2.56h1.87" fill="none" stroke="#010101" stroke-miterlimit="10" stroke-width=".09"/>
+    <polyline points=".67 .45 2.91 .45 2.72 1.78 .85 1.83" fill="none" stroke="#010101" stroke-miterlimit="10" stroke-width=".09"/>
+    <ellipse cx="1.4" cy="2.67" rx=".26" ry=".29" fill="none" stroke="#010101" stroke-miterlimit="10" stroke-width=".06"/>
+    <ellipse cx="2.33" cy="2.69" rx=".26" ry=".29" fill="none" stroke="#010101" stroke-miterlimit="10" stroke-width=".06"/>
+    <path d="m0,.04h.61l.06.41.19,1.38s-.81.38.2.56h1.87" fill="none" stroke="#010101" stroke-miterlimit="10" stroke-width=".09"/>
+    <polyline points=".67 .45 2.91 .45 2.72 1.78 .85 1.83" fill="none" stroke="#010101" stroke-miterlimit="10" stroke-width=".09"/>
+    <ellipse cx="1.4" cy="2.67" rx=".26" ry=".29" fill="none" stroke="#010101" stroke-miterlimit="10" stroke-width=".06"/>
+    <ellipse cx="2.33" cy="2.69" rx=".26" ry=".29" fill="none" stroke="#010101" stroke-miterlimit="10" stroke-width=".06"/>
+  </g>
+</svg>

@@ -5,44 +5,109 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="css/grid.css" rel="stylesheet">
     <link href="css/main.css" rel="stylesheet">
-    <title>Project 3</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>FIP</title>
 </head>
+
 
 <section class="spacer">
     <h2 class="hidden">Combined classes using media queries</h2>
+
+   
+
     <header class="grid-con">
-        <div class="col-span-2 m-col-span-2 l-col-span-2 xl-col-span-2 box">About Us</div>
-        <div class="col-span-2 m-col-span-2 l-col-span-2 xl-col-span-2 box">Shop</div>
-        <div class="col-span-2 m-col-span-2 l-col-span-2 xl-col-span-2 box">Whole Sale</div>
-        <div class="col-span-2 m-col-span-2 l-col-span-2 xl-col-span-2 box">Logo</div>
-        <div class="col-span-2 m-col-span-2 l-col-span-2 xl-col-span-2 box">Log In/Sign In</div>
-        <nav class="col-span-2 m-col-span-2 l-col-span-2 xl-col-span-2 box ">
-            <h2 class="hidden">Main Moblie Nav</h2>
-            <p>Chart</p>
+        <div class="col-span-1 m-col-span-3 l-col-span-3 xl-col-span-3 nav"><?xml version="1.0" encoding="UTF-8"?>
+            Logo</div>
+        <nav class="col-start-2 col-end-5 m-col-span-9 l-col-span-9 xl-col-span-9 nav">
+           
+<ul class="menu-bar">
+<li><a href="#">About Us</a></li>
+<li><a href="#">Shop</a></li>
+<li><a href="#">Whole Sale</a></li>
+<li><a href="#">Log In/Sign In</a></li>
+<li><a href="#"><i class="fab fa-cart"></i></a></li>
+
+<li><a href="#"></a></li>
+</ul>
         </nav>
     </header>
+
+
     <section class="grid-con">
         <h2 class="hidden">Hero Image</h2>
         <div class="col-span-4 m-col-span-12 l-col-span-12 xl-col-span-12 box">
-        <p>Image</p>
+            <img src="img/test.jpg" alt="drinks">
+       
     </div>
     </section>
     <section class="grid-con">
         <h2 class="hidden">Third Section</h2>
-        <div class="col-span-3 m-col-span-4 l-col-span-4 xl-col-span-5 box"><P>Social Media</P></div>
-        <div class="col-span-3 m-col-span-4 l-col-span-4 xl-col-span-5 box"><P>Image</P></div>
-        <div class="col-span-3 m-col-span-4 l-col-span-4 xl-col-span-5 box"><P>Perks</P></div>
+        <div class="col-span-3 m-col-span-4 l-col-span-4 xl-col-span-5 box"><P>Social Media</P>
+            <body>
+                <ul class="media-icons">
+                <i class="fas fa-instagram"></i><p>BurpleAmazingDrink</p>
+                <i class="fas fa-heart"></i><p>BurpleAmazingDrink</p>
+                <i class="fas fa-car"></i><p>BurpleAmazingDrink</p>
+
+            </ul>
+                
+                </body>
+        </div>
+
+        <div class="col-span-3 m-col-span-4 l-col-span-4 xl-col-span-5 box"><img src="img/drinks1.jpg" alt="differnet color drinks"></div>
+
+        <div class="col-span-3 m-col-span-4 l-col-span-4 xl-col-span-5 box"><P>Perks</P>
+        <P>~Healthy less calories then most juices</P>
+        <p>~Can mix this juice to make cocktailes and many differnt kinds of alcholic beverages</p>
+        <p>~This is a drink for every age</p>  
+        <p>~No artifical colors or adatives</P>
+        <p>~None Caffinated</p>
+        
+        </div>
     </section>
 
     <section class="grid-con">
         <h2 class="hidden">Forth Section</h2>
-        <div class="col-span-4 m-col-span-6 l-col-span-6 xl-col-span-7 box">Contact Form</div>
-        <div class="col-span-4 m-col-span-6 l-col-span-6 xl-col-span-7 box">Image</div>
+        <div class="col-span-4 m-col-span-6 l-col-span-6 xl-col-span-7 box">
+
+            <div id="contact-form" class="box-color">
+                <div class="container1" id="contact-text">
+                    <form action="action_page.php">
+                  
+                      <label for="fname">Name</label>
+                      <input type="text" id="name" name="firstname" placeholder="Your Name:">
+                  
+                      <label for="email">email</label>
+                      <input type="text" id="email" name="email" placeholder="Your Email:">
+                  
+                      <label for="phone-number">Phone</label>
+                      <input type="text" id="phone-number" name="phone-number" placeholder="Your Phone Number:">
+
+                      <label for="comment">Comment</label>
+                      <textarea id="comment" name="comment" placeholder="Comment:" style="height:200px"></textarea>
+                  
+                      <input type="submit" value="Submit">
+                  
+                    </form>
+                  </div>
+            </div>
+    </div> 
+
+        </div>
+        <div class="col-span-4 m-col-span-6 l-col-span-6 xl-col-span-7 box"><img src="img/blue-drink1.jpg" alt="blue drink"></div>
        
     </section>
 </section>
 <footer class="grid-con">
-    <div class="col-span-4 m-col-span-12 l-col-span-12 xl-col-span-12 box">Footer</div>
+    <div class="col-span-4 m-col-span-12 l-col-span-12 xl-col-span-12 box">Footer
+        <div class="footer-text"></div>
+        <p>Logo</p>
+        <p>144 Drink Street, London Ontario</p>
+        <p>519-883-4578</p>
+        <p>Social Medias</p>
+    </div>
+    </div>
+    
 </footer>
 
 </html>
